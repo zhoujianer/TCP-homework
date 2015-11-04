@@ -1,0 +1,315 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BITS	./hash_table.h	7;"	d
+BYTES_TO_PKTS	./tcp_base.h	57;"	d
+CAT	./log.h	10;"	d
+CC	./Makefile	/^CC=gcc$/;"	m
+CFLAGS	./Makefile	/^CFLAGS=-g -Wall$/;"	m
+CLIENT_IDLE	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+CTAGS	./Makefile	/^CTAGS=ctags$/;"	m
+DATA_UNAVAILABLE	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+DEBUG	./log.h	/^enum { INFO, DEBUG, WARN, ERROR };$/;"	e	enum:__anon2
+DELTA	./tcp_base.c	44;"	d	file:
+DIR_IN	./tcp_base.h	/^enum { DIR_UNDETERMINED = 0, DIR_IN, DIR_OUT };$/;"	e	enum:__anon3
+DIR_OUT	./tcp_base.h	/^enum { DIR_UNDETERMINED = 0, DIR_IN, DIR_OUT };$/;"	e	enum:__anon3
+DIR_UNDETERMINED	./tcp_base.h	/^enum { DIR_UNDETERMINED = 0, DIR_IN, DIR_OUT };$/;"	e	enum:__anon3
+DIV_CEIL	./def.h	12;"	d
+ERROR	./log.h	/^enum { INFO, DEBUG, WARN, ERROR };$/;"	e	enum:__anon2
+FMT	./log.h	8;"	d
+FREE	./malloc.h	15;"	d
+G	./tcp_base.c	6;"	d	file:
+HASH_TABLE_SIZE	./hash_table.h	8;"	d
+HEADER	./Makefile	/^HEADER=$(wildcard *.h)$/;"	m
+INFO	./log.h	/^enum { INFO, DEBUG, WARN, ERROR };$/;"	e	enum:__anon2
+IN_RECOVERY	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+IS_ACK	./tcp_state.h	15;"	d
+IS_FIN	./tcp_state.h	14;"	d
+IS_FLAG_SET	./tcp_options.h	12;"	d
+IS_RST	./tcp_state.h	13;"	d
+IS_SYN	./tcp_state.h	12;"	d
+K	./tcp_base.c	7;"	d	file:
+LD	./Makefile	/^LD=gcc$/;"	m
+LDFLAGS	./Makefile	/^LDFLAGS=$/;"	m
+LEX	./Makefile	/^LEX=flex$/;"	m
+LIBS	./Makefile	/^LIBS=-lpcap$/;"	m
+LINKTYPE_ETHERNET	./def.h	15;"	d
+LINKTYPE_LINUX_SLL	./def.h	16;"	d
+LOG	./log.h	14;"	d
+MALLOC	./malloc.h	14;"	d
+MALLOC_N	./malloc.h	9;"	d
+MAX	./def.h	10;"	d
+MAX_SEQ	./tcp_base.h	46;"	d
+MIN	./def.h	9;"	d
+MIN_SEQ	./tcp_base.h	47;"	d
+OBJS	./Makefile	/^OBJS=$(patsubst %.c, %.o, $(SRC))$/;"	m
+Offline	./cmd_options.h	/^enum { Undetermined, Online, Offline };$/;"	e	enum:__anon1
+Online	./cmd_options.h	/^enum { Undetermined, Online, Offline };$/;"	e	enum:__anon1
+PACKET_DELAY	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+PARSER_DIR	./Makefile	/^PARSER_DIR=.\/parser$/;"	m
+PROG_NAME	./def.h	6;"	d
+PROG_VERSION	./def.h	7;"	d
+RESOURCE_CONSTRAINT	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+RETRANS_ACK_DELAY	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+RETRANS_DOUBLE	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+RETRANS_INIT_RWND_LIMITED	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+RETRANS_SERIES_RETRANS	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+RETRANS_UNKNOWN	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+RULE_PARSER	./Makefile	/^RULE_PARSER=rule_parser.c$/;"	m
+SACK	./tcp_sack.c	141;"	d	file:
+SACK	./tcp_sack.c	7;"	d	file:
+SET_FLAG	./tcp_options.h	13;"	d
+SMALL_RETRANS_CWND_LIMITED	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+SMALL_RETRANS_RWND_LIMITED	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+SRC	./Makefile	/^SRC=$(wildcard *.c)$/;"	m
+TAIL_RETRANS	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+TARGET	./Makefile	/^TARGET=tcp_tool$/;"	m
+TCPOPT_EOL	./tcp_options.h	16;"	d
+TCPOPT_LIMIT	./tcp_options.h	23;"	d
+TCPOPT_MSS	./tcp_options.h	18;"	d
+TCPOPT_NOP	./tcp_options.h	17;"	d
+TCPOPT_SACK	./tcp_options.h	21;"	d
+TCPOPT_SACK_PERM	./tcp_options.h	20;"	d
+TCPOPT_TIMESTAMP	./tcp_options.h	22;"	d
+TCPOPT_WSCALE	./tcp_options.h	19;"	d
+TCP_CA_OPEN	./tcp_state.h	17;"	d
+TCP_CA_RECOVERY	./tcp_state.h	18;"	d
+TCP_LISTEN	./tcp_base.h	9;"	d
+TCP_OPT	./tcp_options.h	9;"	d
+TCP_OPT_LEN	./tcp_options.h	10;"	d
+TICK_TO_TIME	./tcp_base.h	36;"	d
+TIME_TO_TICK	./tcp_base.h	35;"	d
+TO_STR	./log.h	11;"	d
+UNKNOWN_ISSUE	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+Undetermined	./cmd_options.h	/^enum { Undetermined, Online, Offline };$/;"	e	enum:__anon1
+WARN	./log.h	/^enum { INFO, DEBUG, WARN, ERROR };$/;"	e	enum:__anon2
+YACC	./Makefile	/^YACC=bison$/;"	m
+ZERO_RWND	./rule_parser.h	/^	CLIENT_IDLE, PACKET_DELAY, ZERO_RWND, RETRANS_INIT_RWND_LIMITED, DATA_UNAVAILABLE, RETRANS_DOUBLE, TAIL_RETRANS, SMALL_RETRANS_CWND_LIMITED, IN_RECOVERY, SMALL_RETRANS_RWND_LIMITED, RETRANS_ACK_DELAY, RETRANS_SERIES_RETRANS, RETRANS_UNKNOWN, RESOURCE_CONSTRAINT, UNKNOWN_ISSUE$/;"	e	enum:stall_type
+_	./cmd_options.c	18;"	d	file:
+__ALGORITHM_H__	./algorithm.h	2;"	d
+__CMD_OPTIONS_H__	./cmd_options.h	2;"	d
+__HASH_TABLE_H__	./hash_table.h	2;"	d
+__MALLOC_H__	./malloc.h	2;"	d
+__RULE_PARSER_H__	./rule_parser.h	2;"	d
+__TCP_BASE_H__	./tcp_base.h	2;"	d
+__TCP_CONFIG_H__	./config.h	2;"	d
+__TCP_LIST_H__	./list.h	2;"	d
+__TCP_OPTIONS_H__	./tcp_options.h	2;"	d
+__TCP_PCAP_H__	./tcp_pcap.h	2;"	d
+__TCP_RANGE_LIST_H__	./tcp_range_list.h	2;"	d
+__TCP_RTT_H__	./tcp_rtt.h	2;"	d
+__TCP_SACK_H__	./tcp_sack.h	2;"	d
+__TCP_STALL_STATE_H__	./tcp_stall_state.h	2;"	d
+__TCP_STATE_H__	./tcp_state.h	2;"	d
+__TCP_TOOL_DEFINE_H__	./def.h	2;"	d
+__TCP_TOOL_LOG_H__	./log.h	2;"	d
+ack_seq	./tcp_rtt.h	/^	uint32_t ack_seq;$/;"	m	struct:seq_rtt_t
+add_to_block_list	./tcp_sack.c	/^void add_to_block_list(struct sack_block *sack, struct list_head *list)$/;"	f
+addr	./tcp_base.h	/^	struct in_addr addr[2];$/;"	m	struct:tcp_key	typeref:struct:tcp_key::in_addr
+after	./tcp_base.h	45;"	d
+append_to_range_list	./tcp_range_list.c	/^void append_to_range_list(struct list_head *list, uint32_t begin, uint32_t end)$/;"	f
+array_range	./algorithm.h	/^int array_range(uint32_t *array, int n, uint32_t left, uint32_t right)$/;"	f
+before	./tcp_base.h	/^static inline int before(uint32_t seq1, uint32_t seq2)$/;"	f
+begin	./tcp_base.h	/^	uint32_t begin;$/;"	m	struct:block_t
+begin	./tcp_range_list.h	/^	uint32_t begin;$/;"	m	struct:range_t
+between	./tcp_base.h	/^static inline int between(uint32_t seq1, uint32_t seq2, uint32_t seq3)$/;"	f
+block	./tcp_base.h	/^	struct block_t block[4];$/;"	m	struct:sack_block	typeref:struct:sack_block::block_t
+block_list	./tcp_state.h	/^	struct list_head block_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+block_t	./tcp_base.h	/^struct block_t {$/;"	s
+ca_state	./tcp_stall_state.h	/^	int ca_state;$/;"	m	struct:tcp_stall_state
+ca_state	./tcp_state.h	/^	int ca_state;$/;"	m	struct:tcp_state
+cleanup	./main.c	/^void cleanup()$/;"	f
+cleanup_hash_table	./hash_table.c	/^void cleanup_hash_table(struct hash_table_entry **hash_table)$/;"	f
+cur_pkt_dir	./tcp_stall_state.h	/^	int cur_pkt_dir;$/;"	m	struct:tcp_stall_state
+cur_pkt_len	./tcp_stall_state.h	/^	int cur_pkt_len;$/;"	m	struct:tcp_stall_state
+cur_pkt_lost_num	./tcp_stall_state.h	/^	int cur_pkt_lost_num;$/;"	m	struct:tcp_stall_state
+cur_pkt_seq	./tcp_stall_state.h	/^	uint32_t cur_pkt_seq;$/;"	m	struct:tcp_stall_state
+cur_pkt_spurious_num	./tcp_stall_state.h	/^	int cur_pkt_spurious_num;$/;"	m	struct:tcp_stall_state
+cur_time	./tcp_stall_state.h	/^	double cur_time;$/;"	m	struct:tcp_stall_state
+delete_list	./list.h	47;"	d
+delete_range_list	./tcp_range_list.c	/^void delete_range_list(struct list_head *list)$/;"	f
+delete_rtt_list	./tcp_rtt.c	/^void delete_rtt_list(struct list_head *list)$/;"	f
+delete_rtt_list_prev	./tcp_rtt.c	/^static void delete_rtt_list_prev(struct list_head *p, struct list_head *list)$/;"	f	file:
+delete_seq_list	./tcp_rtt.c	/^void delete_seq_list(struct list_head *list)$/;"	f
+delete_seq_list_prev	./tcp_rtt.c	/^static void delete_seq_list_prev(struct list_head *p, struct list_head *list)$/;"	f	file:
+delete_ts_entry	./hash_table.c	/^int delete_ts_entry(struct hash_table_entry **hash_table, struct tcp_state *ts)$/;"	f
+dump_list	./tcp_state.c	/^static inline void dump_list(FILE *fp, const char *fmt, \\$/;"	f	file:
+dump_ts_info	./tcp_state.c	/^void dump_ts_info(FILE *fp, struct tcp_state *ts)$/;"	f
+dump_tss_info	./tcp_stall_state.c	/^void dump_tss_info(FILE *fp, struct tcp_stall_state *tss)$/;"	f
+dump_tss_list	./tcp_state.c	/^void dump_tss_list(FILE *fp, struct list_head *list)$/;"	f
+duration	./tcp_stall_state.h	/^	double duration;$/;"	m	struct:tcp_stall_state
+end	./tcp_base.h	/^	uint32_t end;$/;"	m	struct:block_t
+end	./tcp_range_list.h	/^	uint32_t end;$/;"	m	struct:range_t
+fackets_out	./tcp_state.h	/^	int fackets_out;$/;"	m	struct:tcp_state
+file_num	./tcp_state.h	/^	int file_num;$/;"	m	struct:tcp_state
+fill_tcp_stall_list	./tcp_stall_state.c	/^void fill_tcp_stall_list(struct tcp_state *ts, struct list_head *stall_list)$/;"	f
+find_ts_entry	./hash_table.c	/^struct tcp_state *find_ts_entry(struct hash_table_entry **hash_table, struct tcp_key *key)$/;"	f
+finish_tcp_state	./tcp_state.c	/^void finish_tcp_state(struct tcp_state *ts)$/;"	f
+first_send_out_time	./tcp_stall_state.h	/^	double first_send_out_time;$/;"	m	struct:tcp_stall_state
+fp	./tcp_pcap.c	/^static struct bpf_program fp;$/;"	v	typeref:struct:bpf_program	file:
+free_tcp_state	./tcp_state.c	/^static void free_tcp_state(struct tcp_state *ts)$/;"	f	file:
+get_first_send_time	./tcp_rtt.c	/^double get_first_send_time(uint32_t seq, double t, struct list_head *list)$/;"	f
+get_ip_hdr	./tcp_pcap.c	/^struct ip *get_ip_hdr(const u_char *pkt_ptr, int *len)$/;"	f
+get_lost_list	./tcp_state.c	/^static void get_lost_list(struct tcp_state *ts)$/;"	f	file:
+get_reord_list	./tcp_state.c	/^static void get_reord_list(struct tcp_state *ts)$/;"	f	file:
+get_reordering	./tcp_sack.c	/^int get_reordering(uint32_t snd_una, struct sack_block *sack, $/;"	f
+get_rtt	./tcp_rtt.c	/^int get_rtt(uint32_t ack, double t, struct list_head *list)$/;"	f
+get_tcp_option	./tcp_options.c	/^int get_tcp_option(struct tcphdr *th, struct tcp_option *ptcp_opt)$/;"	f
+handle_in_pkt	./tcp_state.c	/^static void handle_in_pkt(struct tcp_state *ts, struct tcphdr *th, double time, int len)$/;"	f	file:
+handle_out_pkt	./tcp_state.c	/^static void handle_out_pkt(struct tcp_state *ts, struct tcphdr *th, double time, int len)$/;"	f	file:
+handle_pcap	./main.c	/^void handle_pcap()$/;"	f
+handle_signal	./main.c	/^static void handle_signal(int signo)$/;"	f	file:
+hash	./hash_table.c	/^static inline int hash(struct tcp_key *key)$/;"	f	file:
+hash_table	./main.c	/^struct hash_table_entry **hash_table;$/;"	v	typeref:struct:hash_table_entry
+hash_table_entry	./hash_table.h	/^struct hash_table_entry {$/;"	s
+head	./tcp_stall_state.h	/^	int head;$/;"	m	struct:tcp_stall_state
+head	./tcp_state.h	/^	int head;$/;"	m	struct:tcp_state
+holes	./tcp_stall_state.h	/^	int holes;$/;"	m	struct:tcp_stall_state
+holes	./tcp_state.h	/^	int holes;$/;"	m	struct:tcp_state
+in_range_list	./tcp_range_list.c	/^int in_range_list(uint32_t n, struct list_head *list)$/;"	f
+init	./main.c	/^void init()$/;"	f
+init_list_head	./list.h	/^static inline void init_list_head(struct list_head *list)$/;"	f
+init_rtt	./tcp_base.c	/^void init_rtt(struct rtt_t *rtt)$/;"	f
+init_rwnd	./tcp_stall_state.h	/^	int init_rwnd;$/;"	m	struct:tcp_stall_state
+init_rwnd	./tcp_state.h	/^	int init_rwnd;$/;"	m	struct:tcp_state
+init_tcp_stall	./tcp_stall_state.c	/^void init_tcp_stall(struct tcp_state *ts, struct tcp_stall_state *tss, double duration, int dir, int len, uint32_t seq, double first_send_out_time)$/;"	f
+insert_seq_rtt	./tcp_rtt.c	/^void insert_seq_rtt(uint32_t ack_seq, double t, struct list_head *list)$/;"	f
+insert_set_out_time	./tcp_rtt.c	/^void insert_set_out_time(uint32_t s, double t, struct list_head *list)$/;"	f
+insert_ts_entry	./hash_table.c	/^int insert_ts_entry(struct hash_table_entry **hash_table, struct tcp_state *ts)$/;"	f
+key	./tcp_state.h	/^	struct tcp_key key;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::tcp_key
+last_in_time	./tcp_state.h	/^	double last_in_time;$/;"	m	struct:tcp_state
+last_out_time	./tcp_state.h	/^	double last_out_time;$/;"	m	struct:tcp_state
+last_pkt_dir	./tcp_stall_state.h	/^	int last_pkt_dir;$/;"	m	struct:tcp_stall_state
+last_pkt_dir	./tcp_state.h	/^	int last_pkt_dir; \/\/ In, Out, Undetermined$/;"	m	struct:tcp_state
+last_stall_point	./tcp_state.h	/^	uint32_t last_stall_point;$/;"	m	struct:tcp_state
+last_stall_time	./tcp_state.h	/^	double last_stall_time;$/;"	m	struct:tcp_state
+last_time	./tcp_state.h	/^	double last_time;$/;"	m	struct:tcp_state
+left_bound	./algorithm.h	/^int left_bound(uint32_t *array, int n, uint32_t val)$/;"	f
+list	./tcp_range_list.h	/^	struct list_head list;$/;"	m	struct:range_t	typeref:struct:range_t::list_head
+list	./tcp_rtt.h	/^	struct list_head list;$/;"	m	struct:seq_rtt_t	typeref:struct:seq_rtt_t::list_head
+list	./tcp_rtt.h	/^	struct list_head list;$/;"	m	struct:seq_time_t	typeref:struct:seq_time_t::list_head
+list	./tcp_stall_state.h	/^	struct list_head list;$/;"	m	struct:tcp_stall_state	typeref:struct:tcp_stall_state::list_head
+list_add_tail	./list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_delete_entry	./list.h	/^static inline void list_delete_entry(struct list_head *this)$/;"	f
+list_empty	./list.h	10;"	d
+list_entry	./list.h	18;"	d
+list_for_each	./list.h	12;"	d
+list_for_each_prev	./list.h	15;"	d
+list_head	./list.h	/^struct list_head {$/;"	s
+list_insert	./list.h	/^static inline void list_insert(struct list_head *new,$/;"	f
+list_range_size	./tcp_range_list.c	/^uint32_t list_range_size(struct list_head *list, uint32_t b, uint32_t e)$/;"	f
+list_size	./tcp_range_list.c	/^uint32_t list_size(struct list_head *list)$/;"	f
+lost	./tcp_stall_state.h	/^	int lost;$/;"	m	struct:tcp_stall_state
+lost_list	./tcp_state.h	/^	struct list_head lost_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+main	./main.c	/^int main(int argc, const char **argv)$/;"	f
+max_sack_ack	./tcp_sack.c	/^uint32_t max_sack_ack(struct sack_block *sack)$/;"	f
+max_snd_seg_size	./tcp_stall_state.h	/^	int max_snd_seg_size;$/;"	m	struct:tcp_stall_state
+max_snd_seg_size	./tcp_state.h	/^	uint32_t max_snd_seg_size;$/;"	m	struct:tcp_state
+mss	./tcp_options.h	/^	uint16_t mss;$/;"	m	struct:tcp_option
+my_free	./malloc.c	/^void my_free(void *ptr)$/;"	f
+my_malloc	./malloc.c	/^void *my_malloc(size_t size)$/;"	f
+name	./tcp_state.h	/^	char name[128];$/;"	m	struct:tcp_state
+new_hash_table	./hash_table.c	/^struct hash_table_entry **new_hash_table()$/;"	f
+new_tcp_state	./tcp_state.c	/^struct tcp_state *new_tcp_state(struct tcp_key *key, double time)$/;"	f
+next	./hash_table.h	/^	struct hash_table_entry *next;$/;"	m	struct:hash_table_entry	typeref:struct:hash_table_entry::hash_table_entry
+next	./list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+normalize	./tcp_sack.c	/^void normalize(struct sack_block *sack)$/;"	f
+num	./tcp_base.h	/^	int num;$/;"	m	struct:sack_block
+offset	./tcp_pcap.c	/^static int offset = 0;$/;"	v	file:
+opt_flag	./tcp_options.h	/^	int opt_flag;$/;"	m	struct:tcp_option
+option	./tcp_state.h	/^	struct tcp_option option;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::tcp_option
+outstanding	./tcp_stall_state.h	/^	int outstanding;$/;"	m	struct:tcp_stall_state
+outstanding	./tcp_state.h	/^	int outstanding;$/;"	m	struct:tcp_state
+packets_out	./tcp_stall_state.h	/^	int packets_out;$/;"	m	struct:tcp_stall_state
+packets_out	./tcp_state.h	/^	int packets_out;$/;"	m	struct:tcp_state
+parse_cmd_options	./cmd_options.c	/^void parse_cmd_options(int argc, const char **argv)$/;"	f
+parse_stall	./rule_parser.c	/^enum stall_type parse_stall(struct tcp_stall_state *tss)$/;"	f
+parse_tcp_info	./main.c	/^static void parse_tcp_info(struct tcp_key *key, double time, struct tcphdr *th, int len, int dir)$/;"	f	file:
+pcap_cleanup	./tcp_pcap.c	/^void pcap_cleanup(pcap_t *handle)$/;"	f
+pcap_filename	./cmd_options.c	/^char pcap_filename[1024] = { 0 };$/;"	v
+pcap_handle	./main.c	/^pcap_t *pcap_handle;$/;"	v
+pcap_init	./tcp_pcap.c	/^pcap_t *pcap_init()$/;"	f
+pcap_intf	./cmd_options.c	/^char pcap_intf[128] = { 0 };$/;"	v
+pcap_limit	./cmd_options.c	/^int pcap_limit = 0;$/;"	v
+pcap_type	./cmd_options.c	/^int pcap_type = Undetermined;$/;"	v
+pf_fmt	./tcp_pcap.c	33;"	d	file:
+pkt_cnt	./tcp_state.h	/^	int pkt_cnt; \/\/ n-th pkt in the flow, for debugging$/;"	m	struct:tcp_state
+pkt_counter	./main.c	/^static int pkt_counter = 0;$/;"	v	file:
+port	./tcp_base.h	/^	uint16_t port[2];$/;"	m	struct:tcp_key
+prev	./list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+print_version	./cmd_options.c	/^static void print_version()$/;"	f	file:
+range_t	./tcp_range_list.h	/^struct range_t {$/;"	s
+rcv_nxt	./tcp_state.h	/^	uint32_t rcv_nxt;$/;"	m	struct:tcp_state
+rcv_una	./tcp_state.h	/^	uint32_t rcv_una;$/;"	m	struct:tcp_state
+read_nbits	./hash_table.c	/^static inline int read_nbits(unsigned char *buf, int n, int s)$/;"	f	file:
+recovery_point	./tcp_state.h	/^	uint32_t recovery_point;$/;"	m	struct:tcp_state
+register_signal	./main.c	/^static void register_signal()$/;"	f	file:
+reord	./tcp_state.h	/^	struct block_t reord;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::block_t
+reordering_list	./tcp_state.h	/^	struct list_head reordering_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+retrans_list	./tcp_state.h	/^	struct list_head retrans_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+retrans_out	./tcp_state.h	/^	int retrans_out;$/;"	m	struct:tcp_state
+right_bound	./algorithm.h	/^int right_bound(uint32_t *array, int n, uint32_t val)$/;"	f
+rto	./tcp_base.h	/^	uint32_t rto;$/;"	m	struct:rtt_t
+rto	./tcp_stall_state.h	/^	double rto;$/;"	m	struct:tcp_stall_state
+rtt	./tcp_state.h	/^	struct rtt_t rtt;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::rtt_t
+rtt_list	./tcp_state.h	/^	struct list_head rtt_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+rtt_t	./tcp_base.h	/^struct rtt_t {$/;"	s
+rtt_thres	./tcp_base.c	/^int rtt_thres(struct rtt_t *rtt)$/;"	f
+rttvar	./tcp_base.h	/^	uint32_t rttvar;$/;"	m	struct:rtt_t
+rwnd	./tcp_stall_state.h	/^	int rwnd;$/;"	m	struct:tcp_stall_state
+rwnd	./tcp_state.h	/^	int rwnd;$/;"	m	struct:tcp_state
+rwnd_scale	./tcp_state.h	/^	int rwnd_scale;$/;"	m	struct:tcp_state
+sack	./tcp_options.h	/^	struct sack_block sack;$/;"	m	struct:tcp_option	typeref:struct:tcp_option::sack_block
+sack	./tcp_state.h	/^	struct sack_block sack;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::sack_block
+sack_block	./tcp_base.h	/^struct sack_block {$/;"	s
+sack_ok	./tcp_options.h	/^	uint8_t sack_ok;$/;"	m	struct:tcp_option
+sacked	./tcp_sack.c	/^uint32_t sacked(uint32_t snd_una, struct sack_block *sack)$/;"	f
+sacked_out	./tcp_stall_state.h	/^	int sacked_out;$/;"	m	struct:tcp_stall_state
+sacked_out	./tcp_state.h	/^	int sacked_out;$/;"	m	struct:tcp_state
+send_out_time_list	./tcp_state.h	/^	struct list_head send_out_time_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+seq	./tcp_rtt.h	/^	uint32_t seq;$/;"	m	struct:seq_time_t
+seq_base	./tcp_state.h	/^	uint32_t seq_base;$/;"	m	struct:tcp_state
+seq_rtt_t	./tcp_rtt.h	/^struct seq_rtt_t$/;"	s
+seq_time_t	./tcp_rtt.h	/^struct seq_time_t$/;"	s
+server	./main.c	/^struct in_addr server;$/;"	v	typeref:struct:in_addr
+server_ip	./cmd_options.c	/^char server_ip[128] = { 0 };$/;"	v
+server_port	./cmd_options.c	/^uint16_t server_port;$/;"	v
+snd_nxt	./tcp_stall_state.h	/^	uint32_t snd_nxt;$/;"	m	struct:tcp_stall_state
+snd_nxt	./tcp_state.h	/^	uint32_t snd_nxt;$/;"	m	struct:tcp_state
+snd_una	./tcp_stall_state.h	/^	uint32_t snd_una;$/;"	m	struct:tcp_stall_state
+snd_una	./tcp_state.h	/^	uint32_t snd_una;$/;"	m	struct:tcp_state
+spurious	./tcp_stall_state.h	/^	int spurious;$/;"	m	struct:tcp_stall_state
+spurious_retrans	./tcp_sack.c	/^int spurious_retrans(uint32_t snd_una, struct sack_block *sack, uint32_t *b, uint32_t *e)$/;"	f
+spurious_retrans_list	./tcp_state.h	/^	struct list_head spurious_retrans_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+srtt	./tcp_base.h	/^	uint32_t srtt;$/;"	m	struct:rtt_t
+srtt	./tcp_stall_state.h	/^	double srtt;$/;"	m	struct:tcp_stall_state
+stall_cnt	./tcp_state.h	/^	uint32_t stall_cnt;$/;"	m	struct:tcp_state
+stall_details	./rule_parser.c	/^const char *stall_details[] = {$/;"	v
+stall_list	./tcp_state.h	/^	struct list_head stall_list;$/;"	m	struct:tcp_state	typeref:struct:tcp_state::list_head
+stall_text	./rule_parser.c	/^const char *stall_text[] = {$/;"	v
+stall_type	./rule_parser.h	/^enum stall_type {$/;"	g
+start_time	./tcp_state.h	/^	double start_time;$/;"	m	struct:tcp_state
+state	./tcp_state.h	/^	int state; \/\/ see \/usr\/include\/netinet\/tcp.h$/;"	m	struct:tcp_state
+swap	./tcp_base.h	59;"	d
+tail	./tcp_stall_state.h	/^	int tail;$/;"	m	struct:tcp_stall_state
+tail	./tcp_state.h	/^	int tail;$/;"	m	struct:tcp_state
+tail_burst	./tcp_state.h	/^	int tail_burst;$/;"	m	struct:tcp_state
+tcp_ca_state	./tcp_state.c	/^const char *tcp_ca_state[] = { "TCP_CA_OPEN", "TCP_CA_RECOVERY" };$/;"	v
+tcp_key	./tcp_base.h	/^struct tcp_key {$/;"	s
+tcp_option	./tcp_options.h	/^struct tcp_option {$/;"	s
+tcp_stall_state	./tcp_stall_state.h	/^struct tcp_stall_state {$/;"	s
+tcp_state	./tcp_state.h	/^struct tcp_state {$/;"	s
+tcp_state_machine	./tcp_state.c	/^int tcp_state_machine(struct tcp_state *ts, struct tcphdr *th, int len, double cap_time, int dir)$/;"	f
+this_level	./log.h	13;"	d
+time	./tcp_rtt.h	/^	double time;$/;"	m	struct:seq_rtt_t
+time	./tcp_rtt.h	/^	double time;$/;"	m	struct:seq_time_t
+ts	./hash_table.h	/^	struct tcp_state *ts;$/;"	m	struct:hash_table_entry	typeref:struct:hash_table_entry::tcp_state
+ts	./tcp_options.h	/^	struct timeval ts;$/;"	m	struct:tcp_option	typeref:struct:tcp_option::timeval
+update_reordering	./tcp_state.c	/^static void update_reordering(struct tcp_state *ts, uint32_t b, uint32_t e)$/;"	f	file:
+update_rtt	./tcp_base.c	/^void update_rtt(struct rtt_t *rtt, int32_t m)$/;"	f
+usage	./cmd_options.c	/^const char *usage = $/;"	v
+usage_exit	./cmd_options.c	/^static void usage_exit(int status)$/;"	f	file:
+wscale	./tcp_options.h	/^	uint8_t wscale;$/;"	m	struct:tcp_option
