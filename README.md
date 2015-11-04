@@ -17,9 +17,11 @@ To make it you need to install libpcap libraries.
 3 Analyze all.pcap by Wireshark, and try to find the TCP flow that download video from WeChat. Suppose the download flow’s source ip and port are 116.211.111.227:80(WeChat server), destination ip and port are 172.16.32.2:49273(your phone)
 
 4 Filter the download video flow. Using this  command to filter it(in Linux):
+
 tcpdump -r all.pcap host 172.16.32.2 and port 49273 -w ./download.pcap
 
 5 Using tapo to analyze the download.pcap:
+
 ./tcp_tool -f download.pcap -s 116.211.111.227 -p 80 -t down > download.txt
 
 From the download.txt you can see the sequence number and packet reorder rate.
@@ -31,9 +33,11 @@ From the download.txt you can see the sequence number and packet reorder rate.
 2 Analyze all.pcap by Wireshark, and try to find the TCP flow that upload video to WeChat. Suppose the upload flow’s source ip and port are 172.16.32.2:49275(your phone), destination ip and port are 116.211.111.227:80(WeChat server).
 
 3 Filter the upload video flow. Using this command to filter it(in Linux):
+
 tcpdump -r all.pcap host 172.16.32.2 and port 49275 -w ./upload.pcap
 
 4 Using tapoo to analyze the upload.pcap:
+
 ./tcp_tool -f upload.pcap -s 172.16.32.2 -p 49275 -t up > upload.txt
 
 From the upload.txt you can see the sequence number, inflight number and packet loss rate.
