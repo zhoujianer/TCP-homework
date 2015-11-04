@@ -6,7 +6,7 @@ This is instruction for the TCP course homework.
 This homework is based on a TCP diagnosis tool tapo. Tapo is a TCP performance diagnosis tool. It runs on Linux.
 We have made some change in tapo, so you can get result for this homework directly.
 You can get it by:  git clone https://github.com/zhoujianer/TCP-homework.git
-To make it you need to install libpcap libraries.
+To make it you need to install libpcap libraries(in ubuntu use this command: sudo apt-get install libpcap-dev).
 
 
 #Download flow analysis 
