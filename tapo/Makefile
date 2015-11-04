@@ -27,7 +27,7 @@ $(RULE_PARSER): $(PARSER_DIR)/Makefile $(PARSER_DIR)/parser.y $(PARSER_DIR)/pars
 	$(CC) $(CFLAGS) -c $< -o $@  
 
 tcp_tool: $(OBJS)
-	$(LD) $(LDFLAGS) $(LIBS) $(OBJS) -o $(TARGET)
+	$(LD) $(LDFLAGS) $(OBJS) -o $(TARGET) $(LIBS)
 
 tags: $(wildcard *.[hc]) 
 	$(CTAGS) $(wildcard *.[hc])
