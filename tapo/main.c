@@ -71,9 +71,17 @@ static void parse_tcp_info(struct tcp_key *key, double time, struct tcphdr *th, 
 {
 	// LOG(INFO, "time: %.6lf, len: %d, dir: %d\n", time, len, dir);
 	struct tcp_state * ts = find_ts_entry(hash_table, key);
-	if (ts == NULL && IS_SYN(th) && dir == DIR_IN) {
-		ts = new_tcp_state(key, time);
-		insert_ts_entry(hash_table, ts);
+	if (ts == NULL && dir == DIR_IN) {
+		if (IS_SYN(th)) {
+			ts = new_tcp_state(key, time);
+			insert_ts_entry(hash_table, ts);
+		} else {
+			ts = find_ts_entry(hash_table, key);
+			if (!ts) {
+				ts = new_tcp_state(key, time);
+				insert_ts_entry(hash_table, ts);
+			}
+		}
 	}
 
 	if (ts != NULL) {
